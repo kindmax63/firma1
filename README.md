@@ -39,45 +39,65 @@ class ParametrsCompanyTeam {
                            }
 
 public class Firma1 {
+
     public static void main(String[] args) {
+    
         Scanner num = new Scanner(System.in);
+        
         System.out.println("Введите количество сотрудников вашей фирмы:");
+        
         int summarykol = num.nextInt();
+        
         num.nextLine();
+        
         ParametrsCompanyTeam[] sotr = new ParametrsCompanyTeam[summarykol];
+        
         System.out.println("Вводите информацию о каждом сотруднике:");
+        
         for (int i = 0; i < sotr.length; i++) {
+        
         sotr[i] = new ParametrsCompanyTeam();
+        
 
           System.out.println("Введите имя");
+          
           sotr[i].name = num.nextLine();
 
           System.out.println("Введите фамилию");
+          
           sotr[i].secondname= num.nextLine();
 
           System.out.println("Введите отчество");
+          
           sotr[i].middlename= num.nextLine();
 
           System.out.println("Введите должность");
+          
           sotr[i].position= num.nextLine();
 
           System.out.println("Введите возраст");
+          
           sotr[i].age= num.nextInt();
 
           System.out.println("Введите оклад сотрудника");
+          
           sotr[i].oklad= num.nextInt();
 
           System.out.println("Введите стаж работы в фирме (полных месяцев):");
+          
           sotr[i].workexp= num.nextInt();
 
           System.out.println("Введите парковочное место, если его нет - введите ноль:");
+          
           sotr[i].parking= num.nextInt();
 
           num.nextLine();
                                               }
 
           System.out.println( "\n Вывод информации по сотрудникам фирмы:");
+          
           System.out.print("\n Имя \t Фамилия \t Отчество \t Должность \t Возраст \t Оклад");
+          
           System.out.println("\t Стаж работы в фирме(месяцы) \t Номер парковочного места");
 
         for (ParametrsCompanyTeam s : sotr) {
