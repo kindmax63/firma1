@@ -1,23 +1,41 @@
-package firma;
+package firma;  
+
 import java.util.Iterator;
+
 import java.util.Scanner;
+
 import  java.io.*;
+
 import  org.apache.poi.hssf.usermodel.HSSFSheet;
+
 import  org.apache.poi.hssf.usermodel.HSSFWorkbook;
+
 import  org.apache.poi.hssf.usermodel.HSSFRow;
 
+
 //Программа по вводу информации о сотрудниках фирмы:
+
 // Имя,фамилия, должность, возраст, оклад, стаж, парковочное место
 
+
 class ParametrsCompanyTeam {
+
     String name;
+    
     String secondname;
+    
     String middlename;
+    
     String position;
+    
     int age;
+    
     int oklad;
+    
     int workexp;
+    
     int parking;
+    
                            }
 
 public class Firma1 {
