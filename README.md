@@ -1,3 +1,5 @@
+// Файл firma1.class
+
 package firma;  
 
 import java.util.Iterator;
