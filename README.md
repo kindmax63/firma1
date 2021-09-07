@@ -1,4 +1,5 @@
-// Файл firma1.class
+// Файл Firma1.class
+
 
 package firma;  
 
